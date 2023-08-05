@@ -32,3 +32,9 @@ python manager.py run 30221
 ```
 
 2. run frontend: check `README.md` under `vis` for more details.
+
+## Contact
+If you have any problem about this code, feel free to contact
+- changjianchen.me@gmail.com
+
+or describe your problem in Issues.
