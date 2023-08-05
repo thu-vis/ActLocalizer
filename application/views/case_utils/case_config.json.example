@@ -1,0 +1,10 @@
+{
+    "COCO17":{
+        "step": 2,
+        "text_k": 9,
+        "image_k": 9,
+        "pre_k": 100,
+        "hiera":"sub1",
+        "weight": 1
+    }
+}
