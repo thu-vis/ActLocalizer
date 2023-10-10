@@ -4,7 +4,7 @@ This is the source code for our paper "Enhancing Single-Frame Supervision for Be
 
 ## Install environment
 
-### Docker
+### Option 1: Docker
 The easiest way to install a environment to run the demo is to use docker. The image `chencjgene/actlocalizer-run:latest` contains the source codes and data, and have the dependencies installed. You can pull and run the image by:
 
 ```sh
@@ -12,7 +12,7 @@ $ docker pull chencjgene/actlocalizer-run:latest
 $ docker run -it chencjgene/actlocalizer-run:latest
 ```
 
-### Install with python and node.js
+### Option 2: Install with python and node.js
 1. This project uses [python 3.8](https://www.python.org/). Go check it out if you don't have it installed.
 
 2. install python package.
@@ -26,12 +26,14 @@ $ pip install torch
 ## Run
 Make sure the ports 30221 and 20222 are not used.
 
-1. run backend. If you want to change the port `30221`, please change the setting in `vis/src/store/index.js` accordingly.
+1. Download the repo (The repo is in /root/ActLocalizer/ if you use docker).
+
+2. run backend. If you want to change the port `30221`, please change the setting in `vis/src/store/index.js` accordingly.
 ```sh
 python manager.py run 30221
 ```
 
-2. run frontend: check `README.md` under `vis` for more details.
+3. run frontend: check `README.md` under `vis` for more details.
 
 ## Contact
 If you have any problem about this code, feel free to contact
