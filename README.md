@@ -4,7 +4,7 @@ This is the source code for our paper "Enhancing Single-Frame Supervision for Be
 
 ## Install environment
 
-### Option 1: Docker
+### Option 1: Docker (recommended)
 The easiest way to install a environment to run the demo is to use docker. The image `chencjgene/actlocalizer-run:latest` contains the source codes and data, and have the dependencies installed. You can pull and run the image by:
 
 ```sh
