@@ -16,7 +16,7 @@ $ docker pull chencjgene/actlocalizer-run:latest
 $ docker run -p 20222:20222 -p 30221:30221 -it chencjgene/actlocalizer-run:latest
 ```
 
-3. run backend
+3. Run backend
 
 ```sh
 $ cd /root/ActLocalizer/
@@ -43,28 +43,29 @@ $ npm run serve
 $ pip install -r requirements.txt
 $ pip install torch
 ```
+3. Download the repo
 
-3. install nodejs package: check `README.md` under `vis` for more details.
+4. Download demo data from [here](https://drive.google.com/file/d/1EZ6ivfi4xJVphaY0WPkMsOm3SGuD-uDR/view?usp=sharing), and unpack it in the root folder DataLinker 
 
-https://drive.google.com/file/d/1EZ6ivfi4xJVphaY0WPkMsOm3SGuD-uDR/view?usp=sharing
+5. Run backend
 
-
-## Run
-Make sure the ports 30221 and 20222 are not used.
-
-1. Download the repo (The repo is in /root/ActLocalizer/ if you use docker).
-
-2. run backend. If you want to change the port `30221`, please change the setting in `vis/src/store/index.js` accordingly.
 ```sh
-$ python manager.py run 30221
+$ cd /root/ActLocalizer/
+$ nohup python manager.py run 30221 &
 ```
 
-3. run frontend
+6. Run frontend
+
 ```sh
 $ cd vis
-$ npm install
+$ npm install (it will take a while)
 $ npm run serve
 ```
+
+7. Visit http://localhost:8181/ in a browser.
+
+
+
 ## Contact
 If you have any problem about this code, feel free to contact
 - changjianchen.me@gmail.com
