@@ -45,12 +45,11 @@ $ pip install torch
 ```
 3. Download the repo
 
-4. Download demo data from [here](https://drive.google.com/file/d/1EZ6ivfi4xJVphaY0WPkMsOm3SGuD-uDR/view?usp=sharing), and unpack it in the root folder DataLinker 
+4. Download demo data from [here](https://drive.google.com/file/d/1EZ6ivfi4xJVphaY0WPkMsOm3SGuD-uDR/view?usp=sharing), and unpack it in the root folder 
 
 5. Run backend
 
 ```sh
-$ cd /root/ActLocalizer/
 $ nohup python manager.py run 30221 &
 ```
 
