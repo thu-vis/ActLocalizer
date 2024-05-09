@@ -31,7 +31,7 @@ $ npm install (it will take a while)
 $ npm run serve
 ```
 
-5. Visit http://localhost:8181/ in a browser.
+5. Visit http://localhost:20222/ in a browser.
 
 
 
@@ -61,7 +61,7 @@ $ npm install (it will take a while)
 $ npm run serve
 ```
 
-7. Visit http://localhost:8181/ in a browser.
+7. Visit http://localhost:20222/ in a browser.
 
 
 
