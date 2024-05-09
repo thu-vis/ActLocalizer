@@ -30,11 +30,15 @@ Make sure the ports 30221 and 20222 are not used.
 
 2. run backend. If you want to change the port `30221`, please change the setting in `vis/src/store/index.js` accordingly.
 ```sh
-python manager.py run 30221
+$ python manager.py run 30221
 ```
 
-3. run frontend: check `README.md` under `vis` for more details.
-
+3. run frontend
+```sh
+$ cd vis
+$ npm install
+$ npm run serve
+```
 ## Contact
 If you have any problem about this code, feel free to contact
 - changjianchen.me@gmail.com
